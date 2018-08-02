@@ -2,7 +2,7 @@
 
 In this project I used React and Node, where I created components and called api's.
 We have:
-* A search engine
+* a search box
 * a product view
 * a listing
 * a Breadcrumb
