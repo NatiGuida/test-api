@@ -1,0 +1,18 @@
+.nomatch-container {
+  text-align: center;
+  margin: 20px auto;
+  background-color: #fff;
+  height: auto;
+  width: 65%;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
+.nomatch-container img {
+  width: 30%;
+}
+
+.nomatch-container .home-link {
+  text-decoration: none;
+  color: black;
+}

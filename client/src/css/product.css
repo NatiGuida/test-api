@@ -1,0 +1,156 @@
+.producto-container {
+  margin: 10px auto;
+  width: 63%;
+  background-color: #fff;
+  padding: 20px 0px;
+}
+
+.product-image-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product {
+  width: 680px;
+}
+
+.product-data-container {
+  max-width: 250px;
+  margin-top: 32px;
+}
+
+.product-state {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: #999;
+}
+
+.name {
+  font-size: 24px;
+  color: #333;
+}
+
+.price {
+  font-size: 46px;
+  color: #333;
+  margin: 32px 0px;
+  display: flex;
+}
+
+.price-decimals {
+  font-size: 20px;
+}
+
+.product-buy-container {
+  width: 215px;
+  height: 40px;
+  background-color: #5882fa;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-buy {
+  color: #fff;
+  border: none;
+  font-size: 15px;
+}
+
+.description-container {
+  margin: 32px;
+  max-width: 800px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.description {
+  margin: 32px 0px;
+  color: #999;
+  font-size: 16px;
+}
+
+.placeholder {
+  padding: 80px;
+}
+
+.parpadea {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .producto-container {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .producto-container {
+    width: auto;
+  }
+
+  .product-image-container {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .product-data-container {
+    max-width: 100%;
+    margin: 0px 10px;
+  }
+
+  .product-buy-container {
+    margin: auto;
+  }
+
+  .list-product {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

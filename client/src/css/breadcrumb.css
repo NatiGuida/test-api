@@ -1,0 +1,22 @@
+.breadcrumb-container {
+  display: flex;
+  padding: 16px 0px;
+  width: 63%;
+  margin: auto;
+  color: #999;
+}
+
+.breadcrumb-container p {
+  margin: 0px 10px;
+  font-size: 14px;
+}
+
+.breadcrumb-container .breadcrumb-last {
+  font-weight: bold;
+}
+
+@media all and (max-width: 600px) {
+  .breadcrumb-container {
+    width: 90%;
+  }
+}
